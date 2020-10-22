@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/5cf6dd6ac1.js" crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+
+    <link rel="icon" href="icon.png">
+    <title>FAMILY PTI19 B</title>
+</head>
+<body>
+    
+    <!-- Covid bar -->
+    <div class="covid-bar">
+        Get the latest on our Experience
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+
+        <!-- Nav bar -->
+        <nav class="nav-bar">
+
+            <div class="logo">
+                
+                <img class="card--imagee href="index.html" src="icon.png">
+                    
+                  
+                    <span class="logo__word">FAMILY PTI19 B</span>
+                
+            </div>
+
+            <div class="nav-bar__search">
+                <span class="nav-bar__search__links nav-link margin-right-medium" data-page="places-to-stay">Places to stay</span>
+                <span class="nav-bar__search__links nav-link margin-right-medium" data-page="experiences">Experiences</span>
+                <span class="nav-bar__search__links ">Online Experiences</span>
+            </div>
+
+            <div class="nav-bar__settings">
+                <a href="#" class="btn-white">Become a family</a href="#">
+
+                <div class="nav-bar__settings-menu margin-right-xsmall">
+                    <button class="btn-white setting-link" id="button-settings" data-hide="settings-menu" data-menu="settings-lan">
+                        <i class="fas fa-globe margin-right-xsmall" data-hide="settings-menu" data-menu="settings-lan"></i>
+                        <i class="fas fa-angle-down" data-hide="settings-menu" data-menu="settings-lan"></i>
+                    </button>
+
+                    <div class="nav-bar__settings-menu--1 settings-menu" id="settings-lan">
+                        <a class="menu-text menu-text-lan" data-popup="language-box"><i class="fas fa-globe margin-right-xsmall"></i>English (US)</a>
+                        <a class="menu-text menu-text-lan" data-popup="currency-box"><i class="fas fa-pound-sign margin-right-xsmall"></i>GBP</a>
+                    </div>                    
+                </div>
+
+                <div class="nav-bar__settings-menu">
+                    <button class="btn-white btn-white-profile setting-link" id="button-settings" data-hide="settings-menu" data-menu="settings-profile">
+                        <i class="fas fa-bars margin-right-xsmall" data-hide="settings-menu" data-menu="settings-profile"></i>
+                        <i class="fas fa-user-circle" data-hide="settings-menu" data-menu="settings-profile"></i>
+                    </button>
+
+                    <div class="nav-bar__settings-menu--1 settings-menu" id="settings-profile">
+                        <a class="menu-text">Sign up</a>
+                        <a class="menu-text">Log in</a>
+                        <a class="menu-text-bar"></a>
+                        <a class="menu-text">Host your home</a>
+                        <a class="menu-text">Host your experiences</a>
+                        <a class="menu-text">Help</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Search bar -->
+        <div class="header__search">
+
+            <!-- Main box -->
+            <div class="search__bar--main-box search-bar" id="places-to-stay">
+
+                <label for="location" class="search__bar--box">
+                    <span class="search__bar--box-top">Location</span>
+                    <input class="search__bar--box-input" type="text" placeholder="Where you going?">
+                </label>
+    
+                <div class="search__bar--box">
+                    <span class="search__bar--box-top">Check in</span>
+                    <span class="search__bar--box-bottom">Add dates</span>
+                </div>
+    
+                <div class="search__bar--box">
+                    <span class="search__bar--box-top">Check out</span>
+                    <span class="search__bar--box-bottom">Add dates</span>
+                </div>
+    
+                <div class="search__bar--box">
+                    
+                    <span class="search__bar--box-top">Guests</span>
+                    <span class="search__bar--box-bottom">Add guests</span>
+
+                    <button class="btn-search margin-right-xsmall"><i class="fas fa-search"></i></button>
+                </div>
+
+            </div>
+
+            <!-- Experiences box -->
+            <div class="search__bar-experiences search-bar" id="experiences">
+
+                <label class="search__bar--box" for="location">
+                    <span class="search__bar--box-top">Location</span>
+                    <input class="search__bar--box-input" type="text" placeholder="Where you going?">
+                </label>
+    
+                <div class="search__bar--box">
+                    
+                    <span class="search__bar--box-top">Date</span>
+                    <span class="search__bar--box-bottom">Add when you want to go</span>
+
+                    <button class="btn-search margin-right-xsmall"><i class="fas fa-search"></i></button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Header Middle Text-->
+        <div class="header__slogan">
+            <h1 class="heading-primary margin-bottom-xsmall">PTI 19 B</h1>
+            <p class="paragraph margin-bottom-small">Fokus nang ngarep ora usah ngrungokne. COCOTE TONGGO!!!.</p>
+            <a class="btn-white-explore">Explore Us</a>
+        </div>
+
+
+    </header>
+
+    <!-- Choose currency -->
+    <div id="currency-box" class="popup-back">
+
+        <div id="currency-main" class="pop-up pop-up-currency">
+
+            <div class="pop-up__close">
+                <span class="pop-up__close--exit exit-popup-box"></span>
+            </div>
+            
+            <div class="pop-up__scroll">
+                <h2 class="pop-up__heading">Choose a currency</h2>
+
+                <div class="pop-up__choose">
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Pound sterling</p>
+                        <p class="pop-up__choose--option-code">GBP - £</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Australian dollar</p>
+                        <p class="pop-up__choose--option-code">AUD - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Brazillian real</p>
+                        <p class="pop-up__choose--option-code">BRL - R$</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Bulgarian lev</p>
+                        <p class="pop-up__choose--option-code">BGN - £</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Canadian dollar</p>
+                        <p class="pop-up__choose--option-code">CAD - &#36;</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Chilean peso</p>
+                        <p class="pop-up__choose--option-code">CLP - &#36;</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Chinese yuan</p>
+                        <p class="pop-up__choose--option-code">CNY - ¥</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Colombian peso</p>
+                        <p class="pop-up__choose--option-code">COP - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Costa Rican colon</p>
+                        <p class="pop-up__choose--option-code">CRC - &#8353;</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Croatian kuna</p>
+                        <p class="pop-up__choose--option-code">HRK - kn</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Czech koruna</p>
+                        <p class="pop-up__choose--option-code">CZK - Kč</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Danish krone</p>
+                        <p class="pop-up__choose--option-code">DKK - kr</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Emirati dirham</p>
+                        <p class="pop-up__choose--option-code">AED - &#x62f;&#x2e;&#x625;</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Euro</p>
+                        <p class="pop-up__choose--option-code">Eur - €</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Hong Kong dollar</p>
+                        <p class="pop-up__choose--option-code">HKD - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Hungarian forint</p>
+                        <p class="pop-up__choose--option-code">HUF - Ft</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Indian rupee</p>
+                        <p class="pop-up__choose--option-code">INR - &#8377;</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Israeli new shekel</p>
+                        <p class="pop-up__choose--option-code">ILS - &#8362;</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Japanese yen</p>
+                        <p class="pop-up__choose--option-code">JPY - ¥</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Malaysian ringgit</p>
+                        <p class="pop-up__choose--option-code">MYR - RM</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Mexican Peso</p>
+                        <p class="pop-up__choose--option-code">MXN - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Moroccan dirham</p>
+                        <p class="pop-up__choose--option-code">MAD</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">New Taiwan dollar</p>
+                        <p class="pop-up__choose--option-code">TWD - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">New Zealand dollar</p>
+                        <p class="pop-up__choose--option-code">NZD - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Norwegian krone</p>
+                        <p class="pop-up__choose--option-code">NOK - kr</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Peruvian sol</p>
+                        <p class="pop-up__choose--option-code">PEN - S/</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Philippine peso</p>
+                        <p class="pop-up__choose--option-code">PHP - </p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Polish zloty</p>
+                        <p class="pop-up__choose--option-code">PLN - </p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Romanian leu</p>
+                        <p class="pop-up__choose--option-code">RON - lei</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Russian ruble</p>
+                        <p class="pop-up__choose--option-code">RUB - </p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Saudi Arabian riyal</p>
+                        <p class="pop-up__choose--option-code">SAR - SR</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Singapore dollar</p>
+                        <p class="pop-up__choose--option-code">SGD - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">South African rand</p>
+                        <p class="pop-up__choose--option-code">ZAR - R</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">South Korean won</p>
+                        <p class="pop-up__choose--option-code">KRW - </p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Swedish krona</p>
+                        <p class="pop-up__choose--option-code">SEK - kr</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Swiss franc</p>
+                        <p class="pop-up__choose--option-code">CHF</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Thai baht</p>
+                        <p class="pop-up__choose--option-code">THB - </p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Turkish lira</p>
+                        <p class="pop-up__choose--option-code">TRY - </p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">United States dollar</p>
+                        <p class="pop-up__choose--option-code">USD - $</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Uruguayan peso</p>
+                        <p class="pop-up__choose--option-code">UYU - $U</p>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- Choose language -->
+    <div id="language-box" class="popup-back">
+
+        <div id="language-main" class="pop-up pop-up-language">
+
+            <div class="pop-up__close">
+                <span class="pop-up__close--exit exit-popup-box"></span>
+            </div>
+            
+            <div class="pop-up__scroll scroll-language">
+                <h2 class="pop-up__heading">Suggested languages and regions</h2>
+
+                <div class="pop-up__choose">
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Português</p>
+                        <p class="pop-up__choose--option-code">Portugal</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Português</p>
+                        <p class="pop-up__choose--option-code">Brasil</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">United States</p>
+                    </a>
+                </div>
+
+                <h2 class="pop-up__heading">Choose a language and region</h2>
+                
+                <div class="pop-up__choose">
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">United Kingdom</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Azerbaycan dili</p>
+                        <p class="pop-up__choose--option-code">Azerbaycan</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Bahasa Indonesia</p>
+                        <p class="pop-up__choose--option-code">Indonesia</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Bosanski</p>
+                        <p class="pop-up__choose--option-code">Bosna i Hercegovina</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Català</p>
+                        <p class="pop-up__choose--option-code">Espanya</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Čeština</p>
+                        <p class="pop-up__choose--option-code">Česká republika</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Crnogorski</p>
+                        <p class="pop-up__choose--option-code">Crna Gora</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Dansk</p>
+                        <p class="pop-up__choose--option-code">Danmark</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Deutsch</p>
+                        <p class="pop-up__choose--option-code">Deutschland</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Deutsch</p>
+                        <p class="pop-up__choose--option-code">Osterreich</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Deutsch</p>
+                        <p class="pop-up__choose--option-code">Schweiz</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Eesti</p>
+                        <p class="pop-up__choose--option-code">Eesti</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">Australia</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">Canada</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">Guyana</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">India</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">Ireland</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">New Zealand</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">Singapore</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">English</p>
+                        <p class="pop-up__choose--option-code">United Arab Emirates</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Argentina</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Belice</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Bolivia</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Chile</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Colombia</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Costa Rica</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Ecuador</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">El Salvador</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">España</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Estados Unidos</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Guatemala</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Honduras</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Latinoamérica</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">México</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Nicaragua</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Panamá</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Paraguay</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Perú</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Español</p>
+                        <p class="pop-up__choose--option-code">Venezuela</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Français</p>
+                        <p class="pop-up__choose--option-code">Belgique</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Français</p>
+                        <p class="pop-up__choose--option-code">Canada</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Français</p>
+                        <p class="pop-up__choose--option-code">France</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Français</p>
+                        <p class="pop-up__choose--option-code">Suisse</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Gaeilge</p>
+                        <p class="pop-up__choose--option-code">Éire</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Hrvatski</p>
+                        <p class="pop-up__choose--option-code">Hrvatska</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">isiXhosa</p>
+                        <p class="pop-up__choose--option-code">eMzantsi Afrika</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">isiZulu</p>
+                        <p class="pop-up__choose--option-code">iNingizimu Africa</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Íslenska</p>
+                        <p class="pop-up__choose--option-code">Ísland</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Italiano</p>
+                        <p class="pop-up__choose--option-code">Italia</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Italiano</p>
+                        <p class="pop-up__choose--option-code">Svizzera</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Kiswahili</p>
+                        <p class="pop-up__choose--option-code">Afrika</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Latviesu</p>
+                        <p class="pop-up__choose--option-code">Latvija</p>
+                    </a>
+                    <a class="pop-up__choose--option">
+                        <p class="pop-up__choose--option-title">Lietuviu</p>
+                        <p class="pop-up__choose--option-code">Lietuva</p>
+                    </a>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+    <!-- Main content -->
+    <main class="main-section">
+
+        <!-- Section cards -->
+        <section class="section-cards">
+            <div class="card margin-right-small">
+                <img class="card--image" src="img/card-1.jpg" alt="Photo 1">
+                <h3 class="card--heading">We are Unique</h3>
+                <p class="card--paragraph">Sports.</p>
+            </div>
+
+            <div class="card margin-right-small">
+                <img class="card--image" src="img/card-2.jpg" alt="Photo 1">
+                <h3 class="card--heading">Daring Experiences</h3>
+                <p class="card--paragraph">Ini bukan kuliah online tapi tugas online.</p>
+            </div>
+
+            <div class="card">
+                <img class="card--image" src="img/card-3.jpg" alt="Photo 1">
+                <h3 class="card--heading">We are Champion</h3>
+                <p class="card--paragraph">Kemenangan sejati adalah dengan tidak menjatuhkan orang lain dalam bertanding.</p>
+            </div>
+        </section>
+
+        <!-- Section Broadway Online -->
+        <section class="section-broadway">
+            <div class="broadway">
+                <div class="broadway__text">
+                    <h2 class="heading-secondary margin-bottom-xsmall">Tentang kami</h2>
+                    <p class="broadway__text-paragraph">Dipertemukan dengan takdir inilah cerita kami.</p>
+                </div>
+
+                <a class="broadway--btn">Explore all</a>
+                
+            </div>
+
+            <div class="broadway__cards margin-top-medium">
+
+                <div class="broadway__card-1">
+                    <img class="broadway__card-1--image" src="img/broadway-1.jpeg" alt="Photo 1">
+                    <h3 class="broadway__card--heading">Inilah rumah kami</h3>
+                </div>
+
+                <div class="broadway__cards__middle">
+                    <div class="broadway__cards__middle-up">
+                        <div class="broadway__card-2">
+                            <img class="broadway__card-2--image" src="img/broadway-2.jpeg" alt="Photo 1">
+                            <h3 class="broadway__card--heading">Filosofi Logo</h3>
+                        </div>
+                        <div class="broadway__card-3">
+                            <img class="broadway__card-3--image" src="img/broadway-3.jpg" alt="Photo 1">
+                            <h3 class="broadway__card--heading">Tentang penulis</h3>
+                        </div>
+                    </div>
+
+                    <div class="broadway__card-4">
+                        <img class="broadway__card-4--image" src="img/broadway-4.jpeg" alt="Photo 1">
+                        <h3 class="broadway__card--heading">Few Moments</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Black lives matter -->
+        <section class="section-blm">
+            <h1 class="heading-blm-title">
+                Because BROTHERS don't let each other wander in the dark ALONE.
+                
+            </h1>
+            <p class="paragraph-blm">No matter who you are, where you’re from, who you love, or who you worship. Brotherhood don't know that!</p>
+
+        </section>
+
+        <!-- Section destination future trips (Only for U.S.) -->
+        <!-- 
+
+        <section class="section-future-trips">
+            <div class="future-trips">
+                <h2 class="heading-secondary margin-bottom-small">Destinations for future trips</h2>
+
+                <div class="future-trips__links">
+                    <a class="future-trips__links-link future-trips__links-link-active" >Destinations for arts & culture</a>
+                    <a class="future-trips__links-link"> Destinations for outdoor adventure</a>
+                    <a class="future-trips__links-link">Mountain cabins</a>
+                    <a class="future-trips__links-link">Beach destinations</a>
+                    <a class="future-trips__links-link">Popular destinations</a>
+                </div>
+
+                <div class="future-trips__places">
+                    a.future-trips__places-link*
+                </div>
+            </div>
+
+            
+            
+        </section>
+    -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer__box">
+            <div class="footer__box--info">
+                <h4 class="heading-forth margin-bottom-xsmall">About</h4>
+                <a href="#" class="footer__box--links">Experience</a>
+                <a href="#" class="footer__box--links">Achievment</a>
+                <a href="#" class="footer__box--links">Holiday</a>
+                <a href="#" class="footer__box--links">Files</a>
+                <a href="#" class="footer__box--links">Careers</a>
+            </div>
+
+
+            <div class="footer__box--info">
+                <h4 class="heading-forth margin-bottom-xsmall">Created by</h4>
+                <a href="#" class="footer__box--links">Message from Teddy Firman Winarto</a>
+                <a href="#" class="footer__box--links">Responsible hosting</a>
+            </div>
+
+            <div class="footer__box--info">
+                <h4 class="heading-forth margin-bottom-xsmall">Thanks for Support Logo&Icon</h4>
+                <a href="#" class="footer__box--links">@adrianbagusp_</a>
+                <a href="#" class="footer__box--links">@davidirsyadus10</a>
+            </div>
+        </div>
+
+        <div class="footer__box2">
+            <div class="footer__box2--details">
+                <span class="footer__box2--details-copyright">&#169; 2020 Tedd, Inc. All rights reserved</span><span class="mid-dot">&middot;</span>
+                <a href="#" class="footer__box2--details-links">Privacy</a><span class="mid-dot">&middot;</span>
+                <a href="#" class="footer__box2--details-links">Terms</a><span class="mid-dot">&middot;</span>
+
+            </div>
+
+            <div class="footer__box2--social-network">
+                <a class="footer__box2--social-network-links" data-popup="language-box"><i class="fas fa-globe margin-right-xsmall"></i>English (GB)</a>
+                <a class="footer__box2--social-network-links" data-popup="currency-box"><i class="fas fa-pound-sign margin-right-xsmall"></i>GBP</a>
+                <i class="fab fa-facebook-f footer__box2--social-network-symbol"></i>
+                <i class="fab fa-twitter footer__box2--social-network-symbol"></i>
+                <i class="fab fa-instagram-square footer__box2--social-network-symbol"></i>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
